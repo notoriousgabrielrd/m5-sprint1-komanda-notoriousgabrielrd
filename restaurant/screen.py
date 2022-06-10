@@ -55,7 +55,7 @@ def check_out_screen() -> None:
 
 
 def initial_screen() -> None:
-
+    os.system("clear")
     while True:
 
         print("1. Para adicionar item a comanda")
